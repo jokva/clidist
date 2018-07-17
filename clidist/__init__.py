@@ -126,6 +126,7 @@ class __clidist:
         })
         self.jenv.filters['choice'] = _generator(self.random.choice)
         self.jenv.filters['sample'] = sample
+        self.jenv.filters['head'] = sample
         self.jenv.filters['counter'] = counter
         self.jenv.filters['pairs'] = pairwise
         self.jenv.filters['shuffle'] = self.shuffle
