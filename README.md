@@ -119,6 +119,14 @@ such as Haskell. The `head` alias is supported:
 4.8
 ```
 
+`drop` is also available:
+```bash
+>>> clidist "uniform(0, 5) | round(2) | drop(2) | head(3) | cli"
+1.87
+2.09
+4.8
+```
+
 ### Choices and other operations
 
 Using `choice` with a finite generator gives an infinite generator that chooses
